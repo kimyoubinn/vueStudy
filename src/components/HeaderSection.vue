@@ -1,5 +1,5 @@
 <script setup>
-    import { headerNav } from "../constants";
+    import { headerNav } from "@/constants/index";
 </script>
 
 <template>

@@ -1,4 +1,4 @@
-<script>
+<script setup>
     import { introText } from "@/constants/index";
 </script>
 
@@ -19,9 +19,9 @@
             </div>
             <div class="intro__kv">
                 <div class="intro__kv-text">
-                    <div>{{ introText[0] }}</div>
-                    <div>{{ introText[1] }}</div>
-                    <div>{{ introText[2] }}</div>
+                    <div>{{ introText.desc[0] }}</div>
+                    <div>{{ introText.desc[1] }}</div>
+                    <div>{{ introText.desc[2] }}</div>
                 </div>
                 <div class="intro__kv-img">
                     <img src="@/assets/img/about.jpg" alt="어바웃">

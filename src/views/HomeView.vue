@@ -11,7 +11,6 @@ import SkipSection from '@/components/SkipSection.vue'
 </script>
 
 <template>
-  <SkillSection />
   <HeaderSection />
   <main id="main" role="main">
     <IntroSection />
